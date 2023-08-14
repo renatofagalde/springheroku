@@ -32,6 +32,6 @@ public class SaudacaoService implements SaudacaoListar {
     }
 
     private static Function<Saudacao, SaudacaoResponse> toSaudacaoResponse() {
-        return objeto -> new SaudacaoResponse(objeto.getId(),objeto.getConteudo());
+        return objeto -> new SaudacaoResponse(objeto.getId(),"versao - 01 "+objeto.getConteudo());
     }
 }
