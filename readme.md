@@ -1,9 +1,17 @@
 
 
+# deploy no heroku
+## sequencia
+
+### documentação da instalacao:
+[heroku cli](https://devcenter.heroku.com/articles/getting-started-with-java#set-up)
+
+instalação em linux/debian 
 ```shell
 sudo snap install heroku --classic
 ```
 
+login
 ```shell
 heroku login
 ```
@@ -47,7 +55,5 @@ atualizar o ambiente
 git push heroku master
 ```
 
-url para teste
-```link
-https://springheroku01-6e6761b0fc55.herokuapp.com/saudacao
-```
+# url para testar no heroku
+[url para teste](https://springheroku01-6e6761b0fc55.herokuapp.com/saudacao)
