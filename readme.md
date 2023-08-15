@@ -55,5 +55,3 @@ atualizar o ambiente
 git push heroku master
 ```
 
-# url para testar no heroku
-[url para teste](https://springheroku01-6e6761b0fc55.herokuapp.com/saudacao)
